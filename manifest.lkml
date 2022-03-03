@@ -1,7 +1,7 @@
 application: demo-embeds {
   label: "Demo Embeds"
   # use url for development
-  url: "http://ea62-181-231-5-174.ngrok.io/bundle.js"
+  url: "http://localhost:8080/bundle.js"
   # use file for production deployment
   # file: "bundle.js"
   entitlements: {
