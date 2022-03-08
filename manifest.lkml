@@ -3,7 +3,7 @@ application: demo-embeds {
   # use url for development
   url: "http://localhost:8080/bundle.js"
   # use file for production deployment
-  # file: "bundle.js"
+  file: "apps/bundle.js"
   entitlements: {
     local_storage: no
     navigation: no
@@ -15,7 +15,7 @@ application: demo-embeds {
     use_iframes: no
     use_clipboard: no
     core_api_methods: ["all_lookml_models", "all_dashboards", "all_looks"]
-    external_api_urls: []
+    external_api_urls: ["https://httpbin.org"]
     oauth2_urls: []
     scoped_user_attributes: []
     global_user_attributes: []
