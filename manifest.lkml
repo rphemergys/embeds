@@ -14,7 +14,7 @@ application: demo-embeds {
     use_downloads: no
     use_iframes: no
     use_clipboard: no
-    core_api_methods: ["all_lookml_models", "all_dashboards", "all_looks", "run_look", "create_query", "run_query"]
+    core_api_methods: ["all_lookml_models", "all_dashboards", "all_looks", "run_look", "create_sql_query", "run_sql_query"]
     external_api_urls : ["https://httpbin.org","http://www.posttestserver.com","http://localhost:8080","http://localhost:8080","http://localhost:8080", "http://localhost:5000"]
     oauth2_urls: []
     scoped_user_attributes: []
