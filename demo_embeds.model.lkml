@@ -1,4 +1,4 @@
-connection: "piagui_demo_connection"
+connection: "piagui_connection"
 
 #include: "/views/*.view.lkml"                # include all views in the views/ folder in this project
 # include: "/**/*.view.lkml"                 # include all views in this project
