@@ -13,7 +13,7 @@ application: demo-embeds {
     use_downloads: no
     use_iframes: no
     use_clipboard: no
-    core_api_methods: ["all_lookml_models", "all_dashboards", "all_looks", "run_look", "create_sql_query", "run_sql_query"]
+    core_api_methods: ["all_lookml_models", "all_dashboards", "all_looks", "run_look", "create_sql_query", "run_sql_query", "me"]
     external_api_urls : ["https://httpbin.org","http://www.posttestserver.com"]
     oauth2_urls: []
     scoped_user_attributes: []
