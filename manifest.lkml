@@ -1,5 +1,5 @@
 application: demo-embeds {
-  label: "Demo Embeds"
+  label: "Escenarios de simulación"
   #url: "http://localhost:8080/bundle.js"
   # use file for production deployment
   file: "/apps/bundle.js"
