@@ -1,5 +1,5 @@
 application: demo-embeds {
-  label: "Escenarios de simulación"
+  label: "demo-embeds"
   #url: "http://localhost:8080/bundle.js"
   # use file for production deployment
   file: "/apps/bundle.js"
@@ -11,7 +11,7 @@ application: demo-embeds {
     use_form_submit: yes
     use_embeds: yes
     use_downloads: no
-    use_iframes: no
+    use_iframes: yes
     use_clipboard: no
     core_api_methods: ["all_lookml_models", "all_dashboards", "all_looks", "run_look", "create_sql_query", "run_sql_query", "me"]
     external_api_urls : ["https://httpbin.org","http://www.posttestserver.com"]
