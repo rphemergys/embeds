@@ -1,6 +1,6 @@
 application: demo-embeds {
   label: "demo-embeds"
-  #url: "http://localhost:8080/bundle.js"
+  #url: "https://localhost:8080/bundle.js"
   # use file for production deployment
   file: "/apps/bundle.js"
   entitlements: {
