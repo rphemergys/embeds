@@ -1,7 +1,7 @@
 application: demo-embeds {
   label: "Demo Embeds"
   #url: "https://localhost:8080/bundle.js"
-  # use file for production deployment
+  #use file for production deployment
   file: "/apps/bundle.js"
   entitlements: {
     local_storage: no
