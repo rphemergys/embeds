@@ -6,11 +6,11 @@ application: demo-embeds {
   entitlements: {
     local_storage: no
     navigation: no
-    new_window: no
+    new_window: yes
     new_window_external_urls: []
     use_form_submit: yes
     use_embeds: yes
-    use_downloads: no
+    use_downloads: yes
     use_iframes: yes
     use_clipboard: no
     core_api_methods: ["all_lookml_models", "all_dashboards", "all_looks", "run_look", "create_sql_query", "run_sql_query", "me"]
